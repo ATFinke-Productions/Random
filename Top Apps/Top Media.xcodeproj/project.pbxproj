@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4939050C17DBC35E00DD9887 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4939050B17DBC35E00DD9887 /* Foundation.framework */; };
+		4939050E17DBC35E00DD9887 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4939050D17DBC35E00DD9887 /* CoreGraphics.framework */; };
+		4939051017DBC35E00DD9887 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4939050F17DBC35E00DD9887 /* UIKit.framework */; };
+		4939051617DBC35E00DD9887 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4939051417DBC35E00DD9887 /* InfoPlist.strings */; };
+		4939051817DBC35E00DD9887 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4939051717DBC35E00DD9887 /* main.m */; };
+		4939051C17DBC35E00DD9887 /* TAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4939051B17DBC35E00DD9887 /* TAAppDelegate.m */; };
+		4939051F17DBC35E00DD9887 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4939051D17DBC35E00DD9887 /* Main_iPhone.storyboard */; };
+		4939052217DBC35E00DD9887 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4939052017DBC35E00DD9887 /* Main_iPad.storyboard */; };
+		4939052717DBC35E00DD9887 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4939052617DBC35E00DD9887 /* Images.xcassets */; };
+		4939054517DBC38B00DD9887 /* TAMediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4939054417DBC38B00DD9887 /* TAMediaViewController.m */; };
+		4939054817DBC3D300DD9887 /* TACollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4939054717DBC3D300DD9887 /* TACollectionViewCell.m */; };
+		493E59FE17DC351D00F03D8E /* TALogoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 493E59FD17DC351D00F03D8E /* TALogoViewController.m */; };
+		493E5A0017DC393D00F03D8E /* splash-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 493E59FF17DC393D00F03D8E /* splash-4.png */; };
+		493E5A0217DC394D00F03D8E /* splash-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 493E5A0117DC394D00F03D8E /* splash-5.png */; };
+		496AD09117DC19ED008DAA10 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 496AD09017DC19ED008DAA10 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4939050817DBC35E00DD9887 /* Top Media.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Top Media.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4939050B17DBC35E00DD9887 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4939050D17DBC35E00DD9887 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4939050F17DBC35E00DD9887 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4939051317DBC35E00DD9887 /* Top Media-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Top Media-Info.plist"; sourceTree = "<group>"; };
+		4939051517DBC35E00DD9887 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4939051717DBC35E00DD9887 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4939051917DBC35E00DD9887 /* Top Media-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Top Media-Prefix.pch"; sourceTree = "<group>"; };
+		4939051A17DBC35E00DD9887 /* TAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAAppDelegate.h; sourceTree = "<group>"; };
+		4939051B17DBC35E00DD9887 /* TAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAAppDelegate.m; sourceTree = "<group>"; };
+		4939051E17DBC35E00DD9887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		4939052117DBC35E00DD9887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		4939052617DBC35E00DD9887 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4939052D17DBC35E00DD9887 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4939053517DBC35E00DD9887 /* Top MediaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Top MediaTests-Info.plist"; sourceTree = "<group>"; };
+		4939053717DBC35E00DD9887 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4939053917DBC35E00DD9887 /* Top_AppsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Top_AppsTests.m; sourceTree = "<group>"; };
+		4939054317DBC38B00DD9887 /* TAMediaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAMediaViewController.h; sourceTree = "<group>"; };
+		4939054417DBC38B00DD9887 /* TAMediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAMediaViewController.m; sourceTree = "<group>"; };
+		4939054617DBC3D300DD9887 /* TACollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TACollectionViewCell.h; sourceTree = "<group>"; };
+		4939054717DBC3D300DD9887 /* TACollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TACollectionViewCell.m; sourceTree = "<group>"; };
+		493E59FC17DC351D00F03D8E /* TALogoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TALogoViewController.h; sourceTree = "<group>"; };
+		493E59FD17DC351D00F03D8E /* TALogoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TALogoViewController.m; sourceTree = "<group>"; };
+		493E59FF17DC393D00F03D8E /* splash-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash-4.png"; sourceTree = "<group>"; };
+		493E5A0117DC394D00F03D8E /* splash-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash-5.png"; sourceTree = "<group>"; };
+		496AD09017DC19ED008DAA10 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4939050517DBC35D00DD9887 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496AD09117DC19ED008DAA10 /* QuartzCore.framework in Frameworks */,
+				4939050E17DBC35E00DD9887 /* CoreGraphics.framework in Frameworks */,
+				4939051017DBC35E00DD9887 /* UIKit.framework in Frameworks */,
+				4939050C17DBC35E00DD9887 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		493904FF17DBC35D00DD9887 = {
+			isa = PBXGroup;
+			children = (
+				4939051117DBC35E00DD9887 /* Top Apps */,
+				4939053317DBC35E00DD9887 /* Top AppsTests */,
+				4939050A17DBC35E00DD9887 /* Frameworks */,
+				4939050917DBC35E00DD9887 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4939050917DBC35E00DD9887 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4939050817DBC35E00DD9887 /* Top Media.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4939050A17DBC35E00DD9887 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				496AD09017DC19ED008DAA10 /* QuartzCore.framework */,
+				4939050B17DBC35E00DD9887 /* Foundation.framework */,
+				4939050D17DBC35E00DD9887 /* CoreGraphics.framework */,
+				4939050F17DBC35E00DD9887 /* UIKit.framework */,
+				4939052D17DBC35E00DD9887 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4939051117DBC35E00DD9887 /* Top Apps */ = {
+			isa = PBXGroup;
+			children = (
+				4939051A17DBC35E00DD9887 /* TAAppDelegate.h */,
+				4939051B17DBC35E00DD9887 /* TAAppDelegate.m */,
+				4939051D17DBC35E00DD9887 /* Main_iPhone.storyboard */,
+				4939052017DBC35E00DD9887 /* Main_iPad.storyboard */,
+				4939054317DBC38B00DD9887 /* TAMediaViewController.h */,
+				4939054417DBC38B00DD9887 /* TAMediaViewController.m */,
+				4939054617DBC3D300DD9887 /* TACollectionViewCell.h */,
+				4939054717DBC3D300DD9887 /* TACollectionViewCell.m */,
+				493E59FC17DC351D00F03D8E /* TALogoViewController.h */,
+				493E59FD17DC351D00F03D8E /* TALogoViewController.m */,
+				493E59FF17DC393D00F03D8E /* splash-4.png */,
+				493E5A0117DC394D00F03D8E /* splash-5.png */,
+				4939052617DBC35E00DD9887 /* Images.xcassets */,
+				4939051217DBC35E00DD9887 /* Supporting Files */,
+			);
+			path = "Top Apps";
+			sourceTree = "<group>";
+		};
+		4939051217DBC35E00DD9887 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4939051317DBC35E00DD9887 /* Top Media-Info.plist */,
+				4939051417DBC35E00DD9887 /* InfoPlist.strings */,
+				4939051717DBC35E00DD9887 /* main.m */,
+				4939051917DBC35E00DD9887 /* Top Media-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4939053317DBC35E00DD9887 /* Top AppsTests */ = {
+			isa = PBXGroup;
+			children = (
+				4939053917DBC35E00DD9887 /* Top_AppsTests.m */,
+				4939053417DBC35E00DD9887 /* Supporting Files */,
+			);
+			path = "Top AppsTests";
+			sourceTree = "<group>";
+		};
+		4939053417DBC35E00DD9887 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4939053517DBC35E00DD9887 /* Top MediaTests-Info.plist */,
+				4939053617DBC35E00DD9887 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4939050717DBC35D00DD9887 /* Top Media */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4939053D17DBC35E00DD9887 /* Build configuration list for PBXNativeTarget "Top Media" */;
+			buildPhases = (
+				4939050417DBC35D00DD9887 /* Sources */,
+				4939050517DBC35D00DD9887 /* Frameworks */,
+				4939050617DBC35D00DD9887 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Top Media";
+			productName = "Top Apps";
+			productReference = 4939050817DBC35E00DD9887 /* Top Media.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4939050017DBC35D00DD9887 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TA;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "ATFinke Productions Incorperated";
+			};
+			buildConfigurationList = 4939050317DBC35D00DD9887 /* Build configuration list for PBXProject "Top Media" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 493904FF17DBC35D00DD9887;
+			productRefGroup = 4939050917DBC35E00DD9887 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4939050717DBC35D00DD9887 /* Top Media */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4939050617DBC35D00DD9887 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				493E5A0217DC394D00F03D8E /* splash-5.png in Resources */,
+				4939052217DBC35E00DD9887 /* Main_iPad.storyboard in Resources */,
+				4939052717DBC35E00DD9887 /* Images.xcassets in Resources */,
+				4939051F17DBC35E00DD9887 /* Main_iPhone.storyboard in Resources */,
+				4939051617DBC35E00DD9887 /* InfoPlist.strings in Resources */,
+				493E5A0017DC393D00F03D8E /* splash-4.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4939050417DBC35D00DD9887 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4939051817DBC35E00DD9887 /* main.m in Sources */,
+				4939054817DBC3D300DD9887 /* TACollectionViewCell.m in Sources */,
+				493E59FE17DC351D00F03D8E /* TALogoViewController.m in Sources */,
+				4939054517DBC38B00DD9887 /* TAMediaViewController.m in Sources */,
+				4939051C17DBC35E00DD9887 /* TAAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4939051417DBC35E00DD9887 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4939051517DBC35E00DD9887 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4939051D17DBC35E00DD9887 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4939051E17DBC35E00DD9887 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		4939052017DBC35E00DD9887 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4939052117DBC35E00DD9887 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		4939053617DBC35E00DD9887 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4939053717DBC35E00DD9887 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4939053B17DBC35E00DD9887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4939053C17DBC35E00DD9887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4939053E17DBC35E00DD9887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Top Apps/Top Media-Prefix.pch";
+				INFOPLIST_FILE = "Top Apps/Top Media-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "Top Media";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4939053F17DBC35E00DD9887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Top Apps/Top Media-Prefix.pch";
+				INFOPLIST_FILE = "Top Apps/Top Media-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "Top Media";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4939050317DBC35D00DD9887 /* Build configuration list for PBXProject "Top Media" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4939053B17DBC35E00DD9887 /* Debug */,
+				4939053C17DBC35E00DD9887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4939053D17DBC35E00DD9887 /* Build configuration list for PBXNativeTarget "Top Media" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4939053E17DBC35E00DD9887 /* Debug */,
+				4939053F17DBC35E00DD9887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4939050017DBC35D00DD9887 /* Project object */;
+}

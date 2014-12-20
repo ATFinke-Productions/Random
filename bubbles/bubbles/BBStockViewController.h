@@ -1,0 +1,19 @@
+//
+//  BBStockViewController.h
+//  bubbles
+//
+//  Created by Andrew on 9/8/13.
+//  Copyright (c) 2013 ATFinke Productions Incorperated. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
+
+#import "Bubble.h"
+
+@interface BBStockViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *stockLabel;
+@property (weak, nonatomic) IBOutlet UILabel *priceLabel;
+@property (weak, nonatomic) IBOutlet UILabel *dataLabel;
+
+@end

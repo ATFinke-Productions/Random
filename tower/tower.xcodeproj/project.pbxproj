@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4917CFC5177D4A4400156B3B /* fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4917CFC4177D4A4400156B3B /* fire.sks */; };
+		4917CFC6177D4A4400156B3B /* fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4917CFC4177D4A4400156B3B /* fire.sks */; };
+		4917D01B177DFAD400156B3B /* bombtower.png in Resources */ = {isa = PBXBuildFile; fileRef = 4917D019177DFAD400156B3B /* bombtower.png */; };
+		4917D01C177DFAD400156B3B /* bombtower.png in Resources */ = {isa = PBXBuildFile; fileRef = 4917D019177DFAD400156B3B /* bombtower.png */; };
+		4917D01D177DFAD400156B3B /* bullettower.png in Resources */ = {isa = PBXBuildFile; fileRef = 4917D01A177DFAD400156B3B /* bullettower.png */; };
+		4917D01E177DFAD400156B3B /* bullettower.png in Resources */ = {isa = PBXBuildFile; fileRef = 4917D01A177DFAD400156B3B /* bullettower.png */; };
+		4917D021177DFB3E00156B3B /* TDTowerImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4917D020177DFB3E00156B3B /* TDTowerImageView.m */; };
+		4917D022177DFB3E00156B3B /* TDTowerImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4917D020177DFB3E00156B3B /* TDTowerImageView.m */; };
+		4917D025177E071C00156B3B /* TDTowerSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 4917D024177E071C00156B3B /* TDTowerSpace.m */; };
+		4917D026177E071C00156B3B /* TDTowerSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 4917D024177E071C00156B3B /* TDTowerSpace.m */; };
+		4917D029177E324A00156B3B /* TDScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4917D028177E324A00156B3B /* TDScrollView.m */; };
+		4917D02A177E324A00156B3B /* TDScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4917D028177E324A00156B3B /* TDScrollView.m */; };
+		494C2E871784CF450095A995 /* TDWaveList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 494C2E861784CF450095A995 /* TDWaveList.plist */; };
+		494C2E881784CF450095A995 /* TDWaveList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 494C2E861784CF450095A995 /* TDWaveList.plist */; };
+		4963F4FC17792B6C003BCC4A /* TDEnemy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4963F4FB17792B6C003BCC4A /* TDEnemy.m */; };
+		4963F4FD17792B6C003BCC4A /* TDEnemy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4963F4FB17792B6C003BCC4A /* TDEnemy.m */; };
+		496C5C1C1785F48600D95441 /* LaserTower.png in Resources */ = {isa = PBXBuildFile; fileRef = 496C5C1B1785F48600D95441 /* LaserTower.png */; };
+		496C5C1F1785F4D900D95441 /* TDLaser.m in Sources */ = {isa = PBXBuildFile; fileRef = 496C5C1E1785F4D900D95441 /* TDLaser.m */; };
+		496C5C201785F4D900D95441 /* TDLaser.m in Sources */ = {isa = PBXBuildFile; fileRef = 496C5C1E1785F4D900D95441 /* TDLaser.m */; };
+		4987E033177B606400A35444 /* EnemyDown.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4987E031177B606400A35444 /* EnemyDown.sks */; };
+		4987E034177B606400A35444 /* EnemyDown.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4987E031177B606400A35444 /* EnemyDown.sks */; };
+		4987E035177B606400A35444 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 4987E032177B606400A35444 /* spark.png */; };
+		4987E036177B606400A35444 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 4987E032177B606400A35444 /* spark.png */; };
+		49B7F2C3177AA99A00BD26DE /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B7F2C2177AA99A00BD26DE /* map.png */; };
+		49E0A5C417791DB300633F84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E0A5C317791DB300633F84 /* Foundation.framework */; };
+		49E0A5C617791DB300633F84 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E0A5C517791DB300633F84 /* CoreGraphics.framework */; };
+		49E0A5C817791DB300633F84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E0A5C717791DB300633F84 /* UIKit.framework */; };
+		49E0A5CA17791DB300633F84 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E0A5C917791DB300633F84 /* SpriteKit.framework */; };
+		49E0A5D017791DB300633F84 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49E0A5CE17791DB300633F84 /* InfoPlist.strings */; };
+		49E0A5D217791DB300633F84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E0A5D117791DB300633F84 /* main.m */; };
+		49E0A5D617791DB300633F84 /* TDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E0A5D517791DB300633F84 /* TDAppDelegate.m */; };
+		49E0A5D917791DB300633F84 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49E0A5D717791DB300633F84 /* Main_iPhone.storyboard */; };
+		49E0A5DC17791DB300633F84 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49E0A5DA17791DB300633F84 /* Main_iPad.storyboard */; };
+		49E0A5DF17791DB300633F84 /* TDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E0A5DE17791DB300633F84 /* TDViewController.m */; };
+		49E0A5E217791DB300633F84 /* TDScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E0A5E117791DB300633F84 /* TDScene.m */; };
+		49E0A5E617791DB300633F84 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49E0A5E517791DB300633F84 /* Images.xcassets */; };
+		49E0A5ED17791DB300633F84 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E0A5EC17791DB300633F84 /* XCTest.framework */; };
+		49E0A5EE17791DB300633F84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E0A5C317791DB300633F84 /* Foundation.framework */; };
+		49E0A5EF17791DB300633F84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E0A5C717791DB300633F84 /* UIKit.framework */; };
+		49E0A5F717791DB300633F84 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49E0A5F517791DB300633F84 /* InfoPlist.strings */; };
+		49E0A5F917791DB300633F84 /* towerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E0A5F817791DB300633F84 /* towerTests.m */; };
+		49E0A60517791E0F00633F84 /* TDTower.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E0A60417791E0F00633F84 /* TDTower.m */; };
+		49E0A60617791E0F00633F84 /* TDTower.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E0A60417791E0F00633F84 /* TDTower.m */; };
+		49E9C8F7177BB25B003CA2F8 /* tower.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E9C8F4177BB25B003CA2F8 /* tower.png */; };
+		49E9C8F8177BB25B003CA2F8 /* tower.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E9C8F4177BB25B003CA2F8 /* tower.png */; };
+		49E9C8F9177BB25B003CA2F8 /* enemy.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E9C8F5177BB25B003CA2F8 /* enemy.png */; };
+		49E9C8FA177BB25B003CA2F8 /* enemy.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E9C8F5177BB25B003CA2F8 /* enemy.png */; };
+		49E9C8FB177BB25B003CA2F8 /* bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E9C8F6177BB25B003CA2F8 /* bullet.png */; };
+		49E9C8FC177BB25B003CA2F8 /* bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E9C8F6177BB25B003CA2F8 /* bullet.png */; };
+		49E9C8FF177BB504003CA2F8 /* TDBullet.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E9C8FE177BB504003CA2F8 /* TDBullet.m */; };
+		49E9C900177BB504003CA2F8 /* TDBullet.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E9C8FE177BB504003CA2F8 /* TDBullet.m */; };
+		49F7EB43177C58CC00A0E2E4 /* TDGameOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F7EB42177C58CC00A0E2E4 /* TDGameOverViewController.m */; };
+		49F7EB44177C58CC00A0E2E4 /* TDGameOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F7EB42177C58CC00A0E2E4 /* TDGameOverViewController.m */; };
+		49F7EB8E177C654E00A0E2E4 /* TDSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F7EB8D177C654E00A0E2E4 /* TDSegue.m */; };
+		49F7EB8F177C654E00A0E2E4 /* TDSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F7EB8D177C654E00A0E2E4 /* TDSegue.m */; };
+		49F7EB92177CAF0500A0E2E4 /* TDBomb.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F7EB91177CAF0500A0E2E4 /* TDBomb.m */; };
+		49F7EB93177CAF0500A0E2E4 /* TDBomb.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F7EB91177CAF0500A0E2E4 /* TDBomb.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49E0A5F017791DB300633F84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49E0A5B817791DB300633F84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49E0A5BF17791DB300633F84;
+			remoteInfo = tower;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4917CFC4177D4A4400156B3B /* fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = fire.sks; sourceTree = "<group>"; };
+		4917D019177DFAD400156B3B /* bombtower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bombtower.png; sourceTree = "<group>"; };
+		4917D01A177DFAD400156B3B /* bullettower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bullettower.png; sourceTree = "<group>"; };
+		4917D01F177DFB3E00156B3B /* TDTowerImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTowerImageView.h; sourceTree = "<group>"; };
+		4917D020177DFB3E00156B3B /* TDTowerImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTowerImageView.m; sourceTree = "<group>"; };
+		4917D023177E071C00156B3B /* TDTowerSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTowerSpace.h; sourceTree = "<group>"; };
+		4917D024177E071C00156B3B /* TDTowerSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTowerSpace.m; sourceTree = "<group>"; };
+		4917D027177E324A00156B3B /* TDScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDScrollView.h; sourceTree = "<group>"; };
+		4917D028177E324A00156B3B /* TDScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDScrollView.m; sourceTree = "<group>"; };
+		494C2E861784CF450095A995 /* TDWaveList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TDWaveList.plist; sourceTree = "<group>"; };
+		4963F4FA17792B6C003BCC4A /* TDEnemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDEnemy.h; sourceTree = "<group>"; };
+		4963F4FB17792B6C003BCC4A /* TDEnemy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDEnemy.m; sourceTree = "<group>"; };
+		4963F4FE17792D32003BCC4A /* TDElements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDElements.h; sourceTree = "<group>"; };
+		496C5C1B1785F48600D95441 /* LaserTower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaserTower.png; sourceTree = "<group>"; };
+		496C5C1D1785F4D900D95441 /* TDLaser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDLaser.h; sourceTree = "<group>"; };
+		496C5C1E1785F4D900D95441 /* TDLaser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDLaser.m; sourceTree = "<group>"; };
+		4987E031177B606400A35444 /* EnemyDown.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EnemyDown.sks; sourceTree = "<group>"; };
+		4987E032177B606400A35444 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		49B7F2C2177AA99A00BD26DE /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		49E0A5C017791DB300633F84 /* tower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tower.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49E0A5C317791DB300633F84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		49E0A5C517791DB300633F84 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		49E0A5C717791DB300633F84 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		49E0A5C917791DB300633F84 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		49E0A5CD17791DB300633F84 /* tower-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tower-Info.plist"; sourceTree = "<group>"; };
+		49E0A5CF17791DB300633F84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		49E0A5D117791DB300633F84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49E0A5D317791DB300633F84 /* tower-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tower-Prefix.pch"; sourceTree = "<group>"; };
+		49E0A5D417791DB300633F84 /* TDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDAppDelegate.h; sourceTree = "<group>"; };
+		49E0A5D517791DB300633F84 /* TDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDAppDelegate.m; sourceTree = "<group>"; };
+		49E0A5D817791DB300633F84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		49E0A5DB17791DB300633F84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		49E0A5DD17791DB300633F84 /* TDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDViewController.h; sourceTree = "<group>"; };
+		49E0A5DE17791DB300633F84 /* TDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDViewController.m; sourceTree = "<group>"; };
+		49E0A5E017791DB300633F84 /* TDScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDScene.h; sourceTree = "<group>"; };
+		49E0A5E117791DB300633F84 /* TDScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDScene.m; sourceTree = "<group>"; };
+		49E0A5E517791DB300633F84 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		49E0A5EB17791DB300633F84 /* towerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = towerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49E0A5EC17791DB300633F84 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		49E0A5F417791DB300633F84 /* towerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "towerTests-Info.plist"; sourceTree = "<group>"; };
+		49E0A5F617791DB300633F84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		49E0A5F817791DB300633F84 /* towerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = towerTests.m; sourceTree = "<group>"; };
+		49E0A60317791E0F00633F84 /* TDTower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTower.h; sourceTree = "<group>"; };
+		49E0A60417791E0F00633F84 /* TDTower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTower.m; sourceTree = "<group>"; };
+		49E9C8F4177BB25B003CA2F8 /* tower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tower.png; sourceTree = "<group>"; };
+		49E9C8F5177BB25B003CA2F8 /* enemy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enemy.png; sourceTree = "<group>"; };
+		49E9C8F6177BB25B003CA2F8 /* bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bullet.png; sourceTree = "<group>"; };
+		49E9C8FD177BB504003CA2F8 /* TDBullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDBullet.h; sourceTree = "<group>"; };
+		49E9C8FE177BB504003CA2F8 /* TDBullet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDBullet.m; sourceTree = "<group>"; };
+		49F7EB41177C58CC00A0E2E4 /* TDGameOverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDGameOverViewController.h; sourceTree = "<group>"; };
+		49F7EB42177C58CC00A0E2E4 /* TDGameOverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDGameOverViewController.m; sourceTree = "<group>"; };
+		49F7EB8C177C654E00A0E2E4 /* TDSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDSegue.h; sourceTree = "<group>"; };
+		49F7EB8D177C654E00A0E2E4 /* TDSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDSegue.m; sourceTree = "<group>"; };
+		49F7EB90177CAF0500A0E2E4 /* TDBomb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDBomb.h; sourceTree = "<group>"; };
+		49F7EB91177CAF0500A0E2E4 /* TDBomb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDBomb.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49E0A5BD17791DB300633F84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49E0A5C617791DB300633F84 /* CoreGraphics.framework in Frameworks */,
+				49E0A5C817791DB300633F84 /* UIKit.framework in Frameworks */,
+				49E0A5CA17791DB300633F84 /* SpriteKit.framework in Frameworks */,
+				49E0A5C417791DB300633F84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49E0A5E817791DB300633F84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49E0A5ED17791DB300633F84 /* XCTest.framework in Frameworks */,
+				49E0A5EF17791DB300633F84 /* UIKit.framework in Frameworks */,
+				49E0A5EE17791DB300633F84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49E0A5B717791DB300633F84 = {
+			isa = PBXGroup;
+			children = (
+				49E0A5CB17791DB300633F84 /* tower */,
+				49E0A5F217791DB300633F84 /* towerTests */,
+				49E0A5C217791DB300633F84 /* Frameworks */,
+				49E0A5C117791DB300633F84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49E0A5C117791DB300633F84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49E0A5C017791DB300633F84 /* tower.app */,
+				49E0A5EB17791DB300633F84 /* towerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49E0A5C217791DB300633F84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49E0A5C317791DB300633F84 /* Foundation.framework */,
+				49E0A5C517791DB300633F84 /* CoreGraphics.framework */,
+				49E0A5C717791DB300633F84 /* UIKit.framework */,
+				49E0A5C917791DB300633F84 /* SpriteKit.framework */,
+				49E0A5EC17791DB300633F84 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49E0A5CB17791DB300633F84 /* tower */ = {
+			isa = PBXGroup;
+			children = (
+				49E0A5D417791DB300633F84 /* TDAppDelegate.h */,
+				49E0A5D517791DB300633F84 /* TDAppDelegate.m */,
+				49E0A5D717791DB300633F84 /* Main_iPhone.storyboard */,
+				49E0A5DA17791DB300633F84 /* Main_iPad.storyboard */,
+				49E0A5DD17791DB300633F84 /* TDViewController.h */,
+				49E0A5DE17791DB300633F84 /* TDViewController.m */,
+				49F7EB41177C58CC00A0E2E4 /* TDGameOverViewController.h */,
+				49F7EB42177C58CC00A0E2E4 /* TDGameOverViewController.m */,
+				49E0A5E017791DB300633F84 /* TDScene.h */,
+				49E0A5E117791DB300633F84 /* TDScene.m */,
+				4917D019177DFAD400156B3B /* bombtower.png */,
+				4917D01A177DFAD400156B3B /* bullettower.png */,
+				49E9C901177BF735003CA2F8 /* TDElements */,
+				49E0A5CC17791DB300633F84 /* Supporting Files */,
+			);
+			path = tower;
+			sourceTree = "<group>";
+		};
+		49E0A5CC17791DB300633F84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				496C5C1B1785F48600D95441 /* LaserTower.png */,
+				49F7EB8C177C654E00A0E2E4 /* TDSegue.h */,
+				49F7EB8D177C654E00A0E2E4 /* TDSegue.m */,
+				49E0A5E517791DB300633F84 /* Images.xcassets */,
+				49E9C8F4177BB25B003CA2F8 /* tower.png */,
+				49E9C8F5177BB25B003CA2F8 /* enemy.png */,
+				49E9C8F6177BB25B003CA2F8 /* bullet.png */,
+				49B7F2C2177AA99A00BD26DE /* map.png */,
+				4917CFC4177D4A4400156B3B /* fire.sks */,
+				4987E031177B606400A35444 /* EnemyDown.sks */,
+				4987E032177B606400A35444 /* spark.png */,
+				49E0A5CD17791DB300633F84 /* tower-Info.plist */,
+				49E0A5CE17791DB300633F84 /* InfoPlist.strings */,
+				49E0A5D117791DB300633F84 /* main.m */,
+				49E0A5D317791DB300633F84 /* tower-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49E0A5F217791DB300633F84 /* towerTests */ = {
+			isa = PBXGroup;
+			children = (
+				49E0A5F817791DB300633F84 /* towerTests.m */,
+				49E0A5F317791DB300633F84 /* Supporting Files */,
+			);
+			path = towerTests;
+			sourceTree = "<group>";
+		};
+		49E0A5F317791DB300633F84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49E0A5F417791DB300633F84 /* towerTests-Info.plist */,
+				49E0A5F517791DB300633F84 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49E9C901177BF735003CA2F8 /* TDElements */ = {
+			isa = PBXGroup;
+			children = (
+				4963F4FE17792D32003BCC4A /* TDElements.h */,
+				494C2E861784CF450095A995 /* TDWaveList.plist */,
+				4917D023177E071C00156B3B /* TDTowerSpace.h */,
+				4917D024177E071C00156B3B /* TDTowerSpace.m */,
+				4917D01F177DFB3E00156B3B /* TDTowerImageView.h */,
+				4917D020177DFB3E00156B3B /* TDTowerImageView.m */,
+				4917D027177E324A00156B3B /* TDScrollView.h */,
+				4917D028177E324A00156B3B /* TDScrollView.m */,
+				49E0A60317791E0F00633F84 /* TDTower.h */,
+				49E0A60417791E0F00633F84 /* TDTower.m */,
+				4963F4FA17792B6C003BCC4A /* TDEnemy.h */,
+				4963F4FB17792B6C003BCC4A /* TDEnemy.m */,
+				49E9C8FD177BB504003CA2F8 /* TDBullet.h */,
+				49E9C8FE177BB504003CA2F8 /* TDBullet.m */,
+				49F7EB90177CAF0500A0E2E4 /* TDBomb.h */,
+				49F7EB91177CAF0500A0E2E4 /* TDBomb.m */,
+				496C5C1D1785F4D900D95441 /* TDLaser.h */,
+				496C5C1E1785F4D900D95441 /* TDLaser.m */,
+			);
+			name = TDElements;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49E0A5BF17791DB300633F84 /* tower */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49E0A5FC17791DB300633F84 /* Build configuration list for PBXNativeTarget "tower" */;
+			buildPhases = (
+				49E0A5BC17791DB300633F84 /* Sources */,
+				49E0A5BD17791DB300633F84 /* Frameworks */,
+				49E0A5BE17791DB300633F84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tower;
+			productName = tower;
+			productReference = 49E0A5C017791DB300633F84 /* tower.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49E0A5EA17791DB300633F84 /* towerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49E0A5FF17791DB300633F84 /* Build configuration list for PBXNativeTarget "towerTests" */;
+			buildPhases = (
+				49E0A5E717791DB300633F84 /* Sources */,
+				49E0A5E817791DB300633F84 /* Frameworks */,
+				49E0A5E917791DB300633F84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49E0A5F117791DB300633F84 /* PBXTargetDependency */,
+			);
+			name = towerTests;
+			productName = towerTests;
+			productReference = 49E0A5EB17791DB300633F84 /* towerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49E0A5B817791DB300633F84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TD;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "ATFinke Productions Incorperated";
+				TargetAttributes = {
+					49E0A5EA17791DB300633F84 = {
+						TestTargetID = 49E0A5BF17791DB300633F84;
+					};
+				};
+			};
+			buildConfigurationList = 49E0A5BB17791DB300633F84 /* Build configuration list for PBXProject "tower" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49E0A5B717791DB300633F84;
+			productRefGroup = 49E0A5C117791DB300633F84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49E0A5BF17791DB300633F84 /* tower */,
+				49E0A5EA17791DB300633F84 /* towerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49E0A5BE17791DB300633F84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B7F2C3177AA99A00BD26DE /* map.png in Resources */,
+				4917D01B177DFAD400156B3B /* bombtower.png in Resources */,
+				4987E033177B606400A35444 /* EnemyDown.sks in Resources */,
+				49E9C8F9177BB25B003CA2F8 /* enemy.png in Resources */,
+				4917D01D177DFAD400156B3B /* bullettower.png in Resources */,
+				49E9C8FB177BB25B003CA2F8 /* bullet.png in Resources */,
+				4917CFC5177D4A4400156B3B /* fire.sks in Resources */,
+				494C2E871784CF450095A995 /* TDWaveList.plist in Resources */,
+				49E0A5E617791DB300633F84 /* Images.xcassets in Resources */,
+				49E0A5DC17791DB300633F84 /* Main_iPad.storyboard in Resources */,
+				496C5C1C1785F48600D95441 /* LaserTower.png in Resources */,
+				4987E035177B606400A35444 /* spark.png in Resources */,
+				49E0A5D917791DB300633F84 /* Main_iPhone.storyboard in Resources */,
+				49E0A5D017791DB300633F84 /* InfoPlist.strings in Resources */,
+				49E9C8F7177BB25B003CA2F8 /* tower.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49E0A5E917791DB300633F84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4987E034177B606400A35444 /* EnemyDown.sks in Resources */,
+				4917D01C177DFAD400156B3B /* bombtower.png in Resources */,
+				4917D01E177DFAD400156B3B /* bullettower.png in Resources */,
+				49E9C8FC177BB25B003CA2F8 /* bullet.png in Resources */,
+				49E9C8F8177BB25B003CA2F8 /* tower.png in Resources */,
+				4917CFC6177D4A4400156B3B /* fire.sks in Resources */,
+				49E9C8FA177BB25B003CA2F8 /* enemy.png in Resources */,
+				4987E036177B606400A35444 /* spark.png in Resources */,
+				49E0A5F717791DB300633F84 /* InfoPlist.strings in Resources */,
+				494C2E881784CF450095A995 /* TDWaveList.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49E0A5BC17791DB300633F84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49E9C8FF177BB504003CA2F8 /* TDBullet.m in Sources */,
+				49E0A5DF17791DB300633F84 /* TDViewController.m in Sources */,
+				4917D025177E071C00156B3B /* TDTowerSpace.m in Sources */,
+				49F7EB43177C58CC00A0E2E4 /* TDGameOverViewController.m in Sources */,
+				49E0A5D617791DB300633F84 /* TDAppDelegate.m in Sources */,
+				49F7EB8E177C654E00A0E2E4 /* TDSegue.m in Sources */,
+				49E0A5E217791DB300633F84 /* TDScene.m in Sources */,
+				49E0A5D217791DB300633F84 /* main.m in Sources */,
+				4963F4FC17792B6C003BCC4A /* TDEnemy.m in Sources */,
+				49E0A60517791E0F00633F84 /* TDTower.m in Sources */,
+				4917D021177DFB3E00156B3B /* TDTowerImageView.m in Sources */,
+				496C5C1F1785F4D900D95441 /* TDLaser.m in Sources */,
+				49F7EB92177CAF0500A0E2E4 /* TDBomb.m in Sources */,
+				4917D029177E324A00156B3B /* TDScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49E0A5E717791DB300633F84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49E0A5F917791DB300633F84 /* towerTests.m in Sources */,
+				49F7EB8F177C654E00A0E2E4 /* TDSegue.m in Sources */,
+				4917D026177E071C00156B3B /* TDTowerSpace.m in Sources */,
+				49F7EB93177CAF0500A0E2E4 /* TDBomb.m in Sources */,
+				49E9C900177BB504003CA2F8 /* TDBullet.m in Sources */,
+				4917D022177DFB3E00156B3B /* TDTowerImageView.m in Sources */,
+				49F7EB44177C58CC00A0E2E4 /* TDGameOverViewController.m in Sources */,
+				4963F4FD17792B6C003BCC4A /* TDEnemy.m in Sources */,
+				496C5C201785F4D900D95441 /* TDLaser.m in Sources */,
+				49E0A60617791E0F00633F84 /* TDTower.m in Sources */,
+				4917D02A177E324A00156B3B /* TDScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49E0A5F117791DB300633F84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49E0A5BF17791DB300633F84 /* tower */;
+			targetProxy = 49E0A5F017791DB300633F84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49E0A5CE17791DB300633F84 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49E0A5CF17791DB300633F84 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		49E0A5D717791DB300633F84 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49E0A5D817791DB300633F84 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		49E0A5DA17791DB300633F84 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49E0A5DB17791DB300633F84 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		49E0A5F517791DB300633F84 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49E0A5F617791DB300633F84 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49E0A5FA17791DB300633F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49E0A5FB17791DB300633F84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49E0A5FD17791DB300633F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tower/tower-Prefix.pch";
+				INFOPLIST_FILE = "tower/tower-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		49E0A5FE17791DB300633F84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tower/tower-Prefix.pch";
+				INFOPLIST_FILE = "tower/tower-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		49E0A60017791DB300633F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tower.app/tower";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tower/tower-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "towerTests/towerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		49E0A60117791DB300633F84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tower.app/tower";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tower/tower-Prefix.pch";
+				INFOPLIST_FILE = "towerTests/towerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49E0A5BB17791DB300633F84 /* Build configuration list for PBXProject "tower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49E0A5FA17791DB300633F84 /* Debug */,
+				49E0A5FB17791DB300633F84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49E0A5FC17791DB300633F84 /* Build configuration list for PBXNativeTarget "tower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49E0A5FD17791DB300633F84 /* Debug */,
+				49E0A5FE17791DB300633F84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49E0A5FF17791DB300633F84 /* Build configuration list for PBXNativeTarget "towerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49E0A60017791DB300633F84 /* Debug */,
+				49E0A60117791DB300633F84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49E0A5B817791DB300633F84 /* Project object */;
+}
